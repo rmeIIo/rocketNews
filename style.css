@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600&family=Work+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600&family=Work+Sans:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -8,47 +8,54 @@
   background: black;
 }
 
-/*:root {
-  --body-bg-color: #121214;
-  --text-color: #E1E1E6;
-  --title-color: #04D361;
-  --form-color: #A8A8A8;
-  --bg-button-color: #8257e5;
-} */
-
 #container {
   padding-left: 30px;
-  font-family: 'Work Sans', Helvetica, sans-serif;
+  font-family: "Work Sans", Helvetica, sans-serif;
 }
 
 .logo {
   height: 94px;
   width: 389px;
-  padding-top: 50px;
-  padding-right: 301px;
+  margin-top: 50px;
+  margin-right: 301px;
 }
 
 .infos h1 {
-  color: #08C05E;
-  padding-top: 92px;
+  color: #08c05e;
+  margin-top: 92px;
   font-weight: 700;
   font-size: 30.44px;
 }
 
 .infos h2 {
   color: white;
-  padding-top: 8.56px;
+  margin-top: 8.56px;
   font-weight: 700;
   font-size: 16px;
 }
 
 .infos p {
   color: white;
-  padding-top: 9px;
+  margin-top: 9px;
   font-weight: 400;
   font-size: 38;
 }
 
+#forms label {
+  font-family: 'League Spartan', Helvetica, sans-serif;
+  font-weight: 700;
+  color: #A8A8A8;
+  margin-bottom: 17px;
+}
+
+#forms input {
+  width: 798px;
+  height: 48px ;
+  background: white;
+  color: #A8A8A8;
+}
+
 .image {
-  width: 1175px;
+  max-width: 100%;
+  height: auto;
 }
