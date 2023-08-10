@@ -21,7 +21,7 @@
   font-family: 'Work Sans', Helvetica, sans-serif;
 }
 
-.logo img {
+.logo {
   height: 94px;
   width: 389px;
   padding-top: 50px;
@@ -47,4 +47,8 @@
   padding-top: 9px;
   font-weight: 400;
   font-size: 38;
+}
+
+.image {
+  width: 1175px;
 }
