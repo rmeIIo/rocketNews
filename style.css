@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600&family=Work+Sans:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   background: black;
 }
+
+/*:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+} */
 
 #container {
   padding-left: 30px;
@@ -21,10 +31,20 @@
 .infos h1 {
   color: #08C05E;
   padding-top: 92px;
-  font-weight: 30.44px;
+  font-weight: 700;
+  font-size: 30.44px;
 }
 
 .infos h2 {
   color: white;
   padding-top: 8.56px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.infos p {
+  color: white;
+  padding-top: 9px;
+  font-weight: 400;
+  font-size: 38;
 }
