@@ -37,7 +37,7 @@
               <div class="border">
                 <div class="box-form">
                   <input class="email" type="text" placeholder="oi@email.com" />
-                  <button class="btn-form" type="submit">
+                  <button onclick="enviarForm()" class="btn-form" type="submit">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -90,5 +90,11 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      function enviarForm() {
+        alert("Email cadastrado com sucesso!")
+      }
+    </script>
   </body>
 </html>
